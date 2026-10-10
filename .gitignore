@@ -1,0 +1,92 @@
+# Digital Toolkit - Git Ignore
+
+# Operating system files
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+.directory
+.Trash-*
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.rej
+*.backup
+*.log
+*.cache
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+secrets/
+credentials/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Node.js artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Generated documentation and site builds
+_site/
+.site/
+public/
+
+# Archives and downloaded artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Large datasets and generated outputs
+data/raw/
+data/processed/
+outputs/
+artifacts/
+
+# Local environment and tool files
+.python-version.local
+.uv/
+.venv/
+
+# OS-specific temporary directories
+tmp/
+temp/
